@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baterías Store</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+  <!-- Fuentes de Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Nuestros estilos -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="header-icon">🔋</div>
+    <h1>Baterías Store</h1>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <h2>Baterías de Alta Calidad</h2>
+    <p>Para motos y triciclos eléctricos de 72V</p>
+    <div class="hero-badges">
+      <div class="badge">🚴 Envío a domicilio en La Habana y Artemisa</div>
+      <div class="badge">🛡️ Garantía de 1 Mes</div>
+    </div>
+  </section>
+
+  <!-- ===== CONTENIDO PRINCIPAL ===== -->
+  <main>
+
+    <!-- SECCIÓN 1: TOPMAQ -->
+    <section class="brand-section">
+      <div class="brand-header">
+        <div class="brand-tag">TOPMAQ</div>
+        <span class="brand-subtitle">Baterías de 72V </span>
+      </div>
+      <div class="cards-grid" id="grid-topmaq">
+        <!-- Las tarjetas las crea script.js automáticamente -->
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: MISHOZUKI -->
+    <section class="brand-section">
+      <div class="brand-header">
+        <div class="brand-tag">MISHOZUKI</div>
+        <span class="brand-subtitle">Batería de 72V</span>
+      </div>
+      <div class="cards-grid" id="grid-mishozuki">
+        <!-- Las tarjetas las crea script.js automáticamente -->
+      </div>
+    </section>
+
+    <!-- BOTÓN GARANTÍA -->
+    <div class="garantia-wrap">
+      <button class="btn-garantia" onclick="toggleGarantia()">
+        🛡️ Información General (Venta y Garantía) 
+        <span id="garantia-arrow">▼</span>
+      </button>
+
+      <div class="garantia-content" id="garantia-box">
+        <h3>Términos y Condiciones</h3>
+
+        <!-- ✏️ EDITA AQUÍ TUS TÉRMINOS DE GARANTÍA -->
+        <p>Todas nuestras baterías son <strong>nuevas </strong>, se entregan en su caja original e incluyen su <strong>cargador</strong> correspondiente.</p>
+        <ul>
+          <li><strong>Garantía:</strong> Todas las baterías cuentan con 1 mes de garantía </li>
+          <li>Cubre defectos de fabricación ,fallos en el BMS (sistema de gestión de batería) o mal funcionamiento.</li>
+          <li><strong>Exclusiones:</strong> No cubre daños por mal uso, sobrecargas prolongadas o daños físicos.</li>
+          <li><strong>Cargador:</strong> El cargador no tiene garantía (debido a que es sensible a caídas o fluctuaciones de voltaje).</li>
+          <li><strong>Mensajería:</strong> El envío es <strong>gratis</strong> si usted concreta la compra. En caso de que se lleve la batería hasta su casa y decida no comprarla, deberá abonar el costo de la mensajería.</li>
+        </ul>
+        <div style="margin-top: 15px; padding-top: 10px; border-top: 1px solid #eee;">
+      <strong>Contacto:</strong> +53 58855420 <br>
+      <small><em>Si no estoy en línea, no dude en llamarme o enviarme un SMS; le atenderé de inmediato.</em></small>
+    </div>
+  </div>
+</div>
+      
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-logo">🔋 Baterías Store</div>
+    <p class="footer-sub">Calidad y confianza</p>
+  </footer>
+
+  <!-- Nuestro JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
