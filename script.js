@@ -20,7 +20,7 @@ const baterias = {
   topmaq: [
     {
       capacidad: "35Ah",
-      disponible: true, 
+      disponible: false, 
       specs: {
         "Largo":     "34 cm",
         "Ancho":     "22 cm",
@@ -44,7 +44,7 @@ const baterias = {
     },
     {
       capacidad: "55Ah",
-      disponible: true,
+      disponible: false,
       specs: {
         "Largo":     " 38 cm",
         "Ancho":     " 23 cm",
@@ -68,7 +68,7 @@ const baterias = {
     },
     {
       capacidad: "75Ah",
-      disponible: true,
+      disponible: false,
       specs: {
         "Largo":     " 52 cm",
         "Ancho":     " 23 cm",
