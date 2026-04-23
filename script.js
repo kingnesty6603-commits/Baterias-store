@@ -36,7 +36,7 @@ const baterias = {
       specs: {
         "Largo":     " 38 cm",
         "Ancho":     " 23 cm",
-        "Alto":      " 17.5 cm",
+        "Alto":      " 18 cm",
         "Autonomía": "~100 km",
         "Año":       "2026"
       },
@@ -48,7 +48,7 @@ const baterias = {
       specs: {
         "Largo":     " 38 cm",
         "Ancho":     " 23 cm",
-        "Alto":      " 17.5 cm",
+        "Alto":      " 18 cm",
         "Autonomía": "~120 km",
         "Año":       "2026"
       },
@@ -70,9 +70,9 @@ const baterias = {
       capacidad: "75Ah",
       disponible: true,
       specs: {
-        "Largo":     " 56 cm",
-        "Ancho":     " 36 cm",
-        "Alto":      " 30 cm",
+        "Largo":     " 52 cm",
+        "Ancho":     " 23 cm",
+        "Alto":      " 18 cm",
         "Autonomía": "~180 km",
         "Año":       "2026"
       },
