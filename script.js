@@ -44,7 +44,7 @@ const baterias = {
     },
     {
       capacidad: "55Ah",
-      disponible: false,
+      disponible: true,
       specs: {
         "Largo":     " 38 cm",
         "Ancho":     " 23 cm",
