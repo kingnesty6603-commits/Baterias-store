@@ -17,10 +17,24 @@
 ------------------------------------------------------- */
 const baterias = {
 
+  yoazaky: [
+    {
+      capacidad: "35Ah",
+      disponible: true, 
+      specs: {
+        "Largo":     "29 cm",
+        "Ancho":     "19 cm",
+        "Alto":      "19 cm",
+        "Autonomía": "~80 km",
+        "Año":       "2026"
+      },
+      fotos: ["img/yoaz35.jpg ", "img/yoaz35-1.jpg"]   // ← pon aquí las rutas de tus imágenes
+    },
+  ],
   topmaq: [
     {
       capacidad: "35Ah",
-      disponible: false, 
+      disponible: true, 
       specs: {
         "Largo":     "34 cm",
         "Ancho":     "22 cm",
@@ -56,7 +70,7 @@ const baterias = {
     },
     {
       capacidad: "65Ah",
-      disponible: true,
+      disponible: false,
       specs: {
         "Largo":     " 52.5 cm",
         "Ancho":     " 23.5 cm",
@@ -83,7 +97,7 @@ const baterias = {
   mishozuki: [
     {
       capacidad: "70Ah",
-      disponible: true,
+      disponible: false,
       specs: {
         "Largo":     " 38 cm",
         "Ancho":     " 22 cm",
@@ -94,7 +108,6 @@ const baterias = {
       fotos: ["img/mis70.jpg", "img/mis70-1.jpg"]
     }
   ]
-
 };
 
 
@@ -105,7 +118,7 @@ const baterias = {
 ------------------------------------------------------- */
 function crearTarjeta(marca, bateria) {
   const { capacidad, specs, fotos,disponible } = bateria;
-  const marcaNombre = marca === "topmaq" ? "TOPMAQ" : "MISHOZUKI";
+  const marcaNombre = marca.toUpperCase();
 
   // Armar el enlace de WhatsApp con mensaje personalizado
   const textoWapp = encodeURIComponent(
@@ -233,6 +246,9 @@ function toggleGarantia() {
    Esto se ejecuta automáticamente cuando el navegador
    termina de cargar el HTML.
 ------------------------------------------------------- */
+document.getElementById('grid-yoazaky').innerHTML =
+  baterias.yoazaky.map(b => crearTarjeta('yoazaky', b)).join('');
+
 document.getElementById('grid-topmaq').innerHTML =
   baterias.topmaq.map(b => crearTarjeta('topmaq', b)).join('');
 
