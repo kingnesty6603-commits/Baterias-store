@@ -22,7 +22,7 @@ const baterias = {
       capacidad: "35Ah",
       disponible: true, 
       specs: {
-        "Largo":     "29 cm",
+        "Largo":     "30 cm",
         "Ancho":     "19 cm",
         "Alto":      "19 cm",
         "Autonomía": "~80 km",
@@ -52,7 +52,7 @@ const baterias = {
         "Ancho":     " 23 cm",
         "Alto":      " 18 cm",
         "Autonomía": "~100 km",
-        "Año":       "2026"
+        "Año":       "2025"
       },
       fotos: ["img/top45.png", "img/top45-1.jpg"]
     },
