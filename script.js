@@ -25,7 +25,7 @@ const baterias = {
         "Largo":     "30 cm",
         "Ancho":     "19 cm",
         "Alto":      "19 cm",
-        "Autonomía": "~80 km",
+        "Autonomía": "~100 km",
         "Año":       "2026"
       },
       fotos: ["img/yoaz35.jpg ", "img/yoaz35-1.jpg"]   // ← pon aquí las rutas de tus imágenes
@@ -34,12 +34,12 @@ const baterias = {
   topmaq: [
     {
       capacidad: "35Ah",
-      disponible: true, 
+      disponible: false, 
       specs: {
         "Largo":     "34 cm",
         "Ancho":     "22 cm",
         "Alto":      "18 cm",
-        "Autonomía": "~80 km",
+        "Autonomía": "~100 km",
         "Año":       "2026"
       },
       fotos: ["img/top35.jpeg", "img/top35-1.jpg"]   // ← pon aquí las rutas de tus imágenes
@@ -51,7 +51,7 @@ const baterias = {
         "Largo":     " 38 cm",
         "Ancho":     " 23 cm",
         "Alto":      " 18 cm",
-        "Autonomía": "~100 km",
+        "Autonomía": "~120 km",
         "Año":       "2025"
       },
       fotos: ["img/top45.png", "img/top45-1.jpg"]
@@ -63,7 +63,7 @@ const baterias = {
         "Largo":     " 38 cm",
         "Ancho":     " 23 cm",
         "Alto":      " 18 cm",
-        "Autonomía": "~120 km",
+        "Autonomía": "~140 km",
         "Año":       "2026"
       },
       fotos: ["img/top55.jpeg", "img/top55-1.jpeg"]
@@ -82,7 +82,7 @@ const baterias = {
     },
     {
       capacidad: "75Ah",
-      disponible: false,
+      disponible: true,
       specs: {
         "Largo":     " 52 cm",
         "Ancho":     " 23 cm",
